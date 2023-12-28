@@ -1,6 +1,21 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
 
+/*
+12/22/23
+Project Summary:
+Drop dead simple web app focused around translating documents that you upload
+Big focus on security to encourage use of private documents and online storage functionality
+NoSQL <-- Look into this 
+
+Big Things:
+Google Cloud API, Authentication, Storage, UI, Documentation of process
+
+Aim For Mini-Deployment (Semi-functional): Jan 7th
+
+December 23rd Objective: Create Github repo, start documentation on progress and tracking, start cloud api implementation
+*/
+
 export default function Home() {
   return (
     <div className={styles.container}>
